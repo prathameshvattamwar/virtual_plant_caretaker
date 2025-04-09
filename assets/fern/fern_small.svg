@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Main Frond -->
+  <path d="M50 90 C 45 75, 60 60, 50 40" stroke="#006400" stroke-width="4" fill="none" />
+  <!-- Leaflets -->
+  <g stroke="#2E8B57" stroke-width="3" fill="none">
+    <path d="M50 75 Q 60 78 65 75" />
+    <path d="M50 75 Q 40 78 35 75" />
+    <path d="M53 65 Q 63 68 68 65" />
+    <path d="M47 65 Q 37 68 32 65" />
+     <path d="M50 55 Q 58 58 63 55" />
+     <path d="M50 55 Q 42 58 37 55" />
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Trunk -->
+  <path d="M35 90 Q 30 60 50 40 T 75 30" stroke="#8B4513" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Branches -->
+   <path d="M50 50 Q 40 55 35 65" stroke="#8B4513" stroke-width="5" fill="none" stroke-linecap="round"/>
+   <path d="M60 45 Q 70 50 75 60" stroke="#8B4513" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="75" cy="28" rx="25" ry="18" fill="#2E8B57" />
+  <ellipse cx="55" cy="38" rx="22" ry="15" fill="#556B2F" transform="rotate(-10 55 38)" />
+  <ellipse cx="35" cy="62" rx="15" ry="10" fill="#6B8E23" />
+   <ellipse cx="78" cy="58" rx="12" ry="8" fill="#2E8B57" />
+   <!-- Flowers -->
+   <circle cx="70" cy="25" r="4" fill="#FFB6C1" />
+   <circle cx="85" cy="30" r="3" fill="#FFC0CB" />
+   <circle cx="60" cy="35" r="4" fill="#FFB6C1" />
+   <circle cx="40" cy="60" r="3" fill="#FFC0CB" />
+   <circle cx="75" cy="55" r="4" fill="#FFB6C1" />
+</svg>

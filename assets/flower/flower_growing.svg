@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <line x1="50" y1="90" x2="50" y2="45" stroke="#228B22" stroke-width="6"/>
+   <!-- Leaves -->
+  <ellipse cx="35" cy="75" rx="15" ry="7" fill="#90EE90" transform="rotate(-60 35 75)"/>
+  <ellipse cx="65" cy="75" rx="15" ry="7" fill="#90EE90" transform="rotate(60 65 75)"/>
+  <ellipse cx="40" cy="60" rx="12" ry="6" fill="#32CD32" transform="rotate(-50 40 60)"/>
+  <ellipse cx="60" cy="60" rx="12" ry="6" fill="#32CD32" transform="rotate(50 60 60)"/>
+   <!-- Bud - larger -->
+  <ellipse cx="50" cy="40" rx="10" ry="12" fill="#FFB6C1"/> <!-- Hint of pink -->
+   <path d="M45 42 C 48 35, 52 35, 55 42" stroke="#3CB371" stroke-width="2" fill="none"/> <!-- Sepal lines -->
+</svg>

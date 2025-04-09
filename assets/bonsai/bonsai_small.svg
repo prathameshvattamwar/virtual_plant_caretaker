@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Trunk -->
+  <path d="M45 90 Q 40 70 50 60 T 65 55" stroke="#8B4513" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="65" cy="50" rx="15" ry="10" fill="#2E8B57" />
+  <ellipse cx="55" cy="55" rx="12" ry="8" fill="#556B2F" transform="rotate(-15 55 55)" />
+</svg>

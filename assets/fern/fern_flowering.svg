@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+   <!-- Base -->
+  <ellipse cx="50" cy="92" rx="18" ry="6" fill="#556B2F"/>
+  <!-- Frond 1 (Center) -->
+  <path d="M50 90 C 35 65, 70 40, 50 15" stroke="#006400" stroke-width="6" fill="none" />
+  <g stroke="#2E8B57" stroke-width="4" fill="none">
+    <path d="M50 70 Q 70 78 75 70" /> <path d="M50 70 Q 30 78 25 70" />
+    <path d="M53 60 Q 75 68 80 60" /> <path d="M47 60 Q 25 68 20 60" />
+    <path d="M55 50 Q 80 58 85 50" /> <path d="M45 50 Q 20 58 15 50" />
+    <path d="M55 40 Q 75 48 80 40" /> <path d="M45 40 Q 25 48 20 40" />
+    <path d="M50 30 Q 65 35 70 30" /> <path d="M50 30 Q 35 35 30 30" />
+     <path d="M50 20 Q 58 23 63 20" /> <path d="M50 20 Q 42 23 37 20" />
+  </g>
+  <!-- Frond 2 (Right) -->
+  <path d="M60 90 C 75 75, 85 55, 75 35" stroke="#008000" stroke-width="5" fill="none" transform="rotate(20 60 90)"/>
+   <g stroke="#6B8E23" stroke-width="3" fill="none" transform="rotate(20 60 90)">
+      <path d="M68 75 Q 80 80 85 75" /> <path d="M62 75 Q 50 80 45 75" />
+      <path d="M72 65 Q 85 70 90 65" /> <path d="M68 65 Q 55 70 50 65" />
+      <path d="M75 55 Q 85 60 90 55" /> <path d="M75 55 Q 65 60 60 55" />
+      <path d="M75 45 Q 83 48 88 45" /> <path d="M75 45 Q 67 48 62 45" />
+   </g>
+   <!-- Frond 3 (Left) -->
+   <path d="M40 90 C 25 75, 15 55, 25 35" stroke="#008000" stroke-width="5" fill="none" transform="rotate(-20 40 90)"/>
+    <g stroke="#6B8E23" stroke-width="3" fill="none" transform="rotate(-20 40 90)">
+      <path d="M32 75 Q 20 80 15 75" /> <path d="M38 75 Q 50 80 55 75" />
+      <path d="M28 65 Q 15 70 10 65" /> <path d="M32 65 Q 45 70 50 65" />
+      <path d="M25 55 Q 15 60 10 55" /> <path d="M25 55 Q 35 60 40 55" />
+       <path d="M25 45 Q 17 48 12 45" /> <path d="M25 45 Q 33 48 38 45" />
+   </g>
+    <!-- Fiddleheads (Unfurling fronds) -->
+   <path d="M45 88 C 45 83, 50 80, 48 77 C 46 74, 47 72, 49 71" stroke="#556B2F" stroke-width="3" fill="none" />
+   <path d="M55 88 C 55 83, 50 80, 52 77 C 54 74, 53 72, 51 71" stroke="#556B2F" stroke-width="3" fill="none" />
+</svg>

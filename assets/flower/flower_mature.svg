@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <line x1="50" y1="90" x2="50" y2="35" stroke="#228B22" stroke-width="7"/>
+   <!-- Leaves -->
+  <ellipse cx="30" cy="70" rx="18" ry="8" fill="#90EE90" transform="rotate(-65 30 70)"/>
+  <ellipse cx="70" cy="70" rx="18" ry="8" fill="#90EE90" transform="rotate(65 70 70)"/>
+  <ellipse cx="35" cy="55" rx="15" ry="7" fill="#32CD32" transform="rotate(-55 35 55)"/>
+  <ellipse cx="65" cy="55" rx="15" ry="7" fill="#32CD32" transform="rotate(55 65 55)"/>
+   <!-- Simple Flower -->
+   <g transform="translate(50, 30)">
+     <circle cx="0" cy="0" r="7" fill="#FFD700"/> <!-- Center -->
+     <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#FF69B4" transform="rotate(0 0 0)"/> <!-- Petal 1 -->
+     <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#FF69B4" transform="rotate(72 0 0)"/> <!-- Petal 2 -->
+     <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#FF69B4" transform="rotate(144 0 0)"/> <!-- Petal 3 -->
+     <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#FF69B4" transform="rotate(216 0 0)"/> <!-- Petal 4 -->
+     <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#FF69B4" transform="rotate(288 0 0)"/> <!-- Petal 5 -->
+   </g>
+</svg>

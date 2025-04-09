@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <line x1="50" y1="90" x2="50" y2="30" stroke="#228B22" stroke-width="8"/>
+   <!-- Leaves -->
+  <ellipse cx="25" cy="65" rx="20" ry="9" fill="#90EE90" transform="rotate(-70 25 65)"/>
+  <ellipse cx="75" cy="65" rx="20" ry="9" fill="#90EE90" transform="rotate(70 75 65)"/>
+  <ellipse cx="30" cy="50" rx="18" ry="8" fill="#32CD32" transform="rotate(-60 30 50)"/>
+  <ellipse cx="70" cy="50" rx="18" ry="8" fill="#32CD32" transform="rotate(60 70 50)"/>
+   <!-- Flower - Larger/Detailed -->
+   <g transform="translate(50, 25) scale(1.2)"> <!-- Scale up the flower -->
+     <circle cx="0" cy="0" r="8" fill="#FFDA00"/> <!-- Center -->
+     <!-- Petals - Slightly more detailed shape -->
+     <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(0 0 0)"/>
+     <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(60 0 0)"/>
+     <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(120 0 0)"/>
+     <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(180 0 0)"/>
+     <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(240 0 0)"/>
+      <path d="M0 -5 C -5 -15, 5 -15, 0 -5 Z" fill="#FF1493" transform="rotate(300 0 0)"/>
+   </g>
+</svg>

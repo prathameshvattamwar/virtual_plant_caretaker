@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Virtual Plant Caretaker</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add link to a nice font if desired -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body id="app-body" class="theme-sunny"> <!-- Default theme -->
+
+    <!-- Initial Setup Screen (Shown only once) -->
+    <div id="initial-setup" class="modal">
+        <div class="modal-content">
+            <h2>Welcome! Choose Your Plant & Theme</h2>
+            <div class="setup-option">
+                <label for="setup-plant-type">Plant Type:</label>
+                <select id="setup-plant-type">
+                    <option value="bonsai">Bonsai</option>
+                    <option value="cactus">Cactus</option>
+                    <option value="fern">Fern</option>
+                    <option value="flower">Flower</option>
+                </select>
+            </div>
+            <div class="setup-option">
+                <label for="setup-background-theme">Background Theme:</label>
+                <select id="setup-background-theme">
+                    <option value="sunny">Sunny Garden</option>
+                    <option value="indoor">Indoor Pot</option>
+                    <option value="night">Night Garden</option>
+                </select>
+            </div>
+            <button id="start-caring-button">Start Caring!</button>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app-container" class="app-container hidden">
+
+        <header class="app-header">
+            <h1>My Virtual Plant</h1>
+            <button id="settings-button" class="icon-button" aria-label="Settings">⚙</button> <!-- Gear icon -->
+        </header>
+
+        <!-- Plant Display Area -->
+        <section class="plant-area">
+            <div id="plant-image-container">
+                <img id="plant-image" src="assets/bonsai/bonsai_seedling.svg" alt="Virtual Plant">
+                <!-- Decorations will be added here by JS -->
+            </div>
+            <p id="plant-stage-name">Stage: Seedling</p>
+            <p id="points-display">Points: 0</p>
+            <p id="plant-status-message"></p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-bar-fill"></div>
+                </div>
+                <span id="progress-text">0/50 to next stage</span>
+            </div>
+        </section>
+
+        <!-- Task Logging Area -->
+        <section class="task-area card">
+            <h2>Log Daily Task</h2>
+            <form id="task-form">
+                <select id="task-select" aria-label="Select Task">
+                    <!-- Options added by JS -->
+                </select>
+                <button type="submit" class="button">Log & Earn Points</button>
+                 <p id="task-feedback" class="feedback"></p>
+            </form>
+        </section>
+
+        <!-- Navigation Tabs -->
+        <nav class="tab-navigation">
+            <button class="tab-button active" data-tab="tasks">Tasks</button>
+            <button class="tab-button" data-tab="history">History</button>
+            <button class="tab-button" data-tab="stats">Stats</button>
+        </nav>
+
+        <!-- Tab Content -->
+        <div id="tab-content">
+            <section id="tasks-content" class="tab-pane active">
+                <!-- Task area is already above -->
+            </section>
+
+            <section id="history-content" class="tab-pane card hidden">
+                <h2>Task History</h2>
+                <ul id="history-list">
+                    <!-- History items added by JS -->
+                    <li>No tasks logged yet.</li>
+                </ul>
+            </section>
+
+            <section id="stats-content" class="tab-pane card hidden">
+                <h2>Stats</h2>
+                <p>Current Streak: <span id="streak-display">0</span> days</p>
+                <p>Total Points Earned: <span id="total-points-display">0</span></p>
+                <p>Tasks Logged Today: <span id="today-tasks-display">0</span></p>
+                <p>Tasks Logged This Week: <span id="week-tasks-display">0</span></p>
+                <p>Avg Points/Day: <span id="avg-points-day">0</span></p>
+                <p>Avg Tasks/Day: <span id="avg-tasks-day">0</span></p>
+            </section>
+
+            <div id="care-tips" class="card hidden"> <!-- Start hidden -->
+                <h2>Care Tips</h2>
+                <p id="tip-text">Log tasks to see relevant tips!</p>
+           </div>
+        </div>
+
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal hidden">
+            <div class="modal-content">
+                <button id="close-settings-button" class="close-button">×</button>
+                <h2>Settings</h2>
+                <div class="settings-option">
+                    <label for="setting-plant-type">Plant Type:</label>
+                    <select id="setting-plant-type">
+                        <option value="bonsai">Bonsai</option>
+                        <option value="cactus">Cactus</option>
+                        <option value="fern">Fern</option>
+                         <option value="flower">Flower</option>
+                    </select>
+                </div>
+                <div class="settings-option">
+                    <label for="setting-background-theme">Background Theme:</label>
+                    <select id="setting-background-theme">
+                        <option value="sunny">Sunny Garden</option>
+                        <option value="indoor">Indoor Pot</option>
+                        <option value="night">Night Garden</option>
+                    </select>
+                </div>
+                <button id="reset-data-button" class="button danger">Reset All Data</button>
+            </div>
+        </div>
+
+        <!-- Milestone Celebration -->
+        <div id="milestone-celebration" class="celebration hidden">
+             <span id="milestone-text">Level Up!</span> 🎉
+        </div>
+
+    </div> <!-- End App Container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
